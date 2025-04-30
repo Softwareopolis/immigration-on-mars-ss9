@@ -3,11 +3,40 @@ html, body {
     margin: 0;
     padding: 0;
     background: #fafafb;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+}
+
+.navbar {
+    width: 100vh;
+    height: 90px;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(5px);
 }
 
 .banner {
     background: #87ceeb;
     width: 100vw;
     height: 100vh;
-    
+    z-index: 99;
+}
+
+h1 {
+    font-size: 45pt;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30pt;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    font-size: 24pt;
+    font-family: Arial, sans-serif;
+}
+
+p, a, li {
+    font-size: 16pt;
+    font-family: Arial, sans-serif;
 }
